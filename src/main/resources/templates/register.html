@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Server</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+</head>
+<body>
+<div align="center">
+    <h1>Register Servers</h1>
+    <form action="#" th:action="@{/servers}" th:object="${server}" method="post">
+        <p>Server Id: <input type="text" th:field="*{serverId}" /></p>
+        <p>Server Name: <input type="text" th:field="*{serverName}" /></p>
+        <p>Language: <input type="text" th:field="*{language}" /></p>
+        <p>Framework: <input type="text" th:field="*{framework}" /></p>
+        <p><input type="submit" value="Submit" /> </p>
+        <a href="/servers/get" >Get a server</a>&nbsp;&nbsp;&nbsp;
+        <a href="/servers/all" >Get all servers</a>&nbsp;&nbsp;&nbsp;
+        <a href="/servers/all" >Delete a server</a>
+    </form>
+
+
+</div>
+
+</body>
+</html>
