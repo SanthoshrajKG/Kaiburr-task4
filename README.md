@@ -1,5 +1,3 @@
-# Kaiburr-task4
-
 # Java Rest API  Application with a frontend to access all the endpoints.
 
 ## Installation:
@@ -33,11 +31,4 @@ Navigate to http://localhost:8080/servers/delete and enter server Id d to delete
 ![image](https://user-images.githubusercontent.com/87854476/228553232-ab8b30e5-eba6-4001-8631-f401ddb0418f.png)
 ![image](https://user-images.githubusercontent.com/87854476/228553132-5cb1f6f4-ed6e-4b37-8692-7e79630c7e65.png)
 ![image](https://user-images.githubusercontent.com/87854476/228554234-d16b5127-f7dd-49e8-b00f-6a002bb62d90.png)
-
-## Task Completed :
-
-1.) Created the Backend part of application using Spring Boot and Mongo DB for Database ✔️
-2.) Configured the Database and created the endpoints for POST, GET, DELETE ✔️
-3.) Created the Html files to display in each endpoint to register, receive and delete servers ✔️
-4.) Work at Kaiburr ⏳😊
 
