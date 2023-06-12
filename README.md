@@ -7,7 +7,7 @@ Create your own copy of the project on GitHub. You can do this by clicking the F
 ## Clone:
 Note: For this you need to install git on your machine
 
-$ git clone https://github.com/<YOUR_GITHUB_USER_NAME>/Kaiburr-task4
+$ git clone https://github.com/<YOUR_GITHUB_USER_NAME>/Server-Registrartion
 
 where YOUR_GITHUB_USER_NAME is your GitHub handle.
 
